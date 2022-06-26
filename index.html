@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxjovmYGjuK8ivP1zvYICXyV5AeW4AHLTLZXzEW2TKvsUmWnfJJ4djUaU_LINRQf9RYJQ&usqp=CAU">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Roupas.com</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Cabeçalho do site-->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="index.html">Roupas.com</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                              </svg> Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="produtos.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                              </svg> Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faleconosco.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone" viewBox="0 0 16 16">
+                                    <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z"/>
+                                  </svg>
+                                Fale Conosco</a>
+                    </ul>
+                    <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <!--Carrossel-->
+        <div class="mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://midia.fotos-riachuelo.com.br/fotos/megamenu/home/2022/junho/ADS-10935/hero-outono-inverno-40-off-ADS-10935-V3.jpg" class="d-block w-100"
+                        alt="Outono & Inverno">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://midia.fotos-riachuelo.com.br/fotos/megamenu/home/2022/junho/ADS-10937/hero-tendencia-calcados-99-ADS-10937-V2.jpg" class="d-block w-100"
+                        alt="Botas para elas">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://midia.fotos-riachuelo.com.br/fotos/megamenu/home/2022/junho/ADS-10945/hero-basicos-15-off-ADS-10945.jpg" class="d-block w-100"
+                        alt="Infantil/Básicos">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </button>
+        </div>
+    </div>
+        <!--Corpo-->
+        <h2 class="mt-3">Conheça as nossas ofertas</h2>
+        <div class="row">
+            <div class="col-md-3 card">
+                <img src="https://static.riachuelo.com.br/mrcatoficial/59268/portrait/arquivos_ids_330058_TENIS-SLIP-ONAZ1.jpg?imwidth=400"
+                    class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tênis Slip On Azul Mr Cat</h5>
+                    <p class="card-text">Aproveite a nossa promoção!!!</p>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Compre
+                        aqui - R$199,90</button>
+                </div>
+            </div>
+            <div class="col-md-3 card">
+                <img src="https://static.riachuelo.com.br/mrcatoficial/69011/portrait/arquivos_ids_353757_TENIS-MEIA-KNIT-RECORTESMT1.jpg?imwidth=400"
+                    class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tênis Knit Recortes Multicolor Mr Cat</h5>
+                    <p class="card-text">Aproveite a nossa promoção!!!</p>
+                    <a href="#" class="btn btn-danger">Compre aqui - R$449,90</a>
+                </div>
+            </div>
+            <div class="col-md-3 card">
+                <img src="https://static.riachuelo.com.br/mrcatoficial/41186/portrait/arquivos_ids_265313_TENIS-FLOW-BIONT1.jpg?imwidth=400"
+                    class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tênis Flow Bio Natural Mr Cat</h5>
+                    <p class="card-text">Aproveite a nossa promoção!!!</p>
+                    <a href="#" class="btn btn-danger">Compre aqui - R$399,90</a>
+                </div>
+            </div>
+            <div class="col-md-3 card">
+                <img src="https://static.riachuelo.com.br/mrcatoficial/67027/portrait/arquivos_ids_347610_TENIS-KNIT-ZENRD1.jpg?imwidth=400"
+                    class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tênis Knit Zen Vermelho Red Mr Cat</h5>
+                    <p class="card-text">Aproveite a nossa promoção!!!</p>
+                    <a href="#" class="btn btn-danger">Compre aqui - R$379,90</a>
+                </div>
+            </div>
+            <h2 class="mt-3">Outlet</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="data:image/png;base64,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" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Até 70% OFF</h5>
+                            <p class="card-text">Última chance de garantir sua peça desejo!!!</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="https://static.riachuelo.com.br/RCHLO/14394634002/portrait/5e5bf1077ed68292a92ff92e81cc3e0b32a2ffef.jpg?imwidth=100" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-title">Cardigan Feminino Aberto Manga Longa Tricot Bege Pool</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="https://static.riachuelo.com.br/RCHLO/14387484002/portrait/bde18d122c70a29b0955431bcf37d4a341bf0afd.jpg?imwidth=100"  class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-title">Suéter Feminino Curto Manga Longa Tricot Branco Pool</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="https://static.riachuelo.com.br/RCHLO/14592142007/portrait/8db6795e94948b65c552daa54583c1b0f3bef100.jpg?imwidth=100"  class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-title">Calça Jeans Color Feminina Reta Cintura Alta Branco Pool</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="https://static.riachuelo.com.br/RCHLO/14480336004/portrait/d109d4f2647b7d553d8735a73d6897ae5438bc03.jpg?imwidth=100"  class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-title">Suéter Feminino Manga Longa Tricot Branco AK</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="https://static.riachuelo.com.br/RCHLO/14636000001/portrait/f198065fd1eb87a2f22ab445ca3e7f4cd56917fa.jpg?imwidth=100" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-title">Blusa Feminina Gola Alta Abstrata Branco AK</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="https://static.riachuelo.com.br/RCHLO/14635992002/portrait/ad5cc04ad215f6f5fcd96eeb58d1e645afa4043f.jpg?imwidth=100" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-title">Calça Feminina Jogger Abstrata Branco AK</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--Rodapé-->
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Sobre a Roupas.com</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">A Empresa</a></li>
+                    <li><a class="text-muted" href="#">Trabalhe Conosco</a></li>
+                    <li><a class="text-muted" href="#">Programa Jovem Aprendiz</a></li>
+                    <li><a class="text-muted" href="#">Lojistas</a></li>
+                    <li><a class="text-muted" href="#">Assessoria de Imprensa</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Sustentabilidade</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Na Prática</a></li>
+                    <li><a class="text-muted" href="#">Jeans mais Sustentável</a></li>
+                    <li><a class="text-muted" href="#">Ações e Projetos</a></li>
+                    <li><a class="text-muted" href="#">Produtos mais Sustentáveis</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Ajuda</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Nossas Lojas</a></li>
+                    <li><a class="text-muted" href="#">Atendimento</a></li>
+                    <li><a class="text-muted" href="#">Perguntas Frequentes</a></li>
+                    <li><a class="text-muted" href="#">Termos e Condições de Uso</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Título</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Conheça nossas ofertas...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
